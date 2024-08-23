@@ -11,5 +11,5 @@ The following GIF shows the result of the trained model.
 
 
 
-![Emotion_detection (2)](https://github.com/user-attachments/assets/435790fd-63dc-49c4-91a0-6fea064ad6d5)
+<img src="https://github.com/user-attachments/assets/435790fd-63dc-49c4-91a0-6fea064ad6d5" alt="Emotion_detection" width="400">
 
