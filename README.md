@@ -10,5 +10,6 @@ Such networks are suitable for emotion detection.
 The following GIF shows the result of the trained model.
 
 
-<img src="https://github.com/user-attachments/assets/5ad33d1b-bdf2-452a-8377-3d7ec8c77932" alt="Emotion_detection" width="400" height="300">
+
+![Emotion_detection (2)](https://github.com/user-attachments/assets/435790fd-63dc-49c4-91a0-6fea064ad6d5)
 
