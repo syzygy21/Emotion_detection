@@ -15,7 +15,7 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctim
 
 # Example logging inside the prediction loop
 while True:
-    _, frame = cap.read()
+    _, frame = cap.read(0)
     labels = []
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_classifier.detectMultiScale(gray)
