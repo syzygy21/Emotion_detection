@@ -11,8 +11,8 @@ from tensorflow.keras.preprocessing import image
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\Dell\anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml')
-classifier =load_model(r'C:\Users\Dell\Downloads\model.h5')
+face_classifier = face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+classifier =load_model("model.h5")
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
