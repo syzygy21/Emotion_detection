@@ -11,7 +11,15 @@ import os
 log_file_path = os.path.join("C:\\Users\\Navdeep\\Emotion_Detection", "emotion_detection.log")
 logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Your existing code...
+face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+classifier = load_model("model.h5")
+
+emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
+
+cap = cv2.VideoCapture(0)
+
+# Suppress TensorFlow logging
+tf.get_logger().setLevel('ERROR')  # Suppress TensorFlow messages
 
 # Example logging inside the prediction loop
 while True:
